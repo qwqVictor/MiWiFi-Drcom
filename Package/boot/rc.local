@@ -1,0 +1,6 @@
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+
+sleep 1
+/userdisk/MiWiFi-Drcom/bin/bash -c "/userdisk/MiWiFi-Drcom/usr/sbin/screen -dmS exec /userdisk/MiWiFi-Drcom/bin/bash_drcom /userdisk/MiWiFi-Drcom/config/Drcom.sh"
+echo Executed >> /tmp/signal
